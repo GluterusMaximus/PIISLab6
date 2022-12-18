@@ -14,6 +14,7 @@ const alpha = 1
 const gamma = 3
 const beta = 0.5
 
+console.log('The simplex after the kth iteration: ')
 console.log(
   iterate(targetFunction, initialPoint, {
     t,
